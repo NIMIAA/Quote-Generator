@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('images/bckgrd.JPG') no-repeat center center/cover;
+    
+}
+.container{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+}
+.header{
+    color: #fff;
+    background: #1f1c1c;
+    border: 2px solid;
+    border-radius: 5px;
+    width: 80%;
+    padding: 5px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1rem;
+}
+.main-area{
+    background: #fff;
+    height: 250px;
+    width: 100%;
+    padding: 50px 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+
+}
+.main-area .quote{
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.main-area .person{
+    text-transform: uppercase;
+    color: red;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+button{
+cursor: pointer;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+background: #282828;
+color: #fff;
+margin-top: 20px;
+
+}
+
+
+@media(max-width:900px){
+    .container{
+        width: 400px;
+    }
+    .header{
+        width: 90%;
+    }
+}
+
+@media(max-width:500px){
+    .container{
+        width: 370px;
+    }
+    .header{
+        width:97% ;
+    }
+    .main-area{
+        height: 300px;
+    }
+}
+@media(max-width:400px){
+    .container{
+        width: 300px;
+    }
+    .header{
+        width:95% ;
+        font-size: 0.7rem;
+    }
+    .main-area{
+        height: 300px;
+    }
+}
+
+@media(max-width:300px){
+    .container{
+        width: 260px;
+        height: 500px;
+    }
+    .header{
+        width:100% ;
+        font-size: 0.5rem;
+    }
+    .main-area{
+        height:350px ;
+    }
+}
+
+
+
+
+
+
+
